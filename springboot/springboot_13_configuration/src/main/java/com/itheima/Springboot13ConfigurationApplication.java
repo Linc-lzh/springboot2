@@ -14,7 +14,7 @@ import org.springframework.context.annotation.Bean;
 public class Springboot13ConfigurationApplication {
 
     @Bean
-    @ConfigurationProperties(prefix = "dataSource")
+    @ConfigurationProperties(prefix = "datasource")
     public DruidDataSource datasource(){
         DruidDataSource ds = new DruidDataSource();
 //        ds.setDriverClassName("com.mysql.jdbc.Driver123");
